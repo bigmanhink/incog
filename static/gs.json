@@ -396,6 +396,13 @@
     "title": "Space Invaders"
   },
   {
+    "img": "./img/gs/superhot.jpg",
+    "location": "./source/superhot/",
+    "title": "SUPERHOT",
+    "author": "SUPERHOT Team",
+    "description": "No regenerating health bars. No conveniently placed ammo drops.\nIt's just you, outnumbered and outgunned, grabbing weapons off fallen enemies to shoot, slice, and maneuver through a hurricane of slow-motion bullets."
+  },
+  {
     "img": "./img/gs/super-metroid.jpg",
     "location": "./source/webretro/?core=autodetect&rom=supermetroid.smc",
     "title": "Super Metroid",
