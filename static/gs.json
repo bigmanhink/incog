@@ -301,6 +301,13 @@
     "description": "Fight against the pirates in the raft wars and win the treasure in the game. The two heroes have cannons which can shoot very far. However this requires a very accurate shooting. Aim well and hit all the pirates in order to win the game."
   },
   {
+    "img": "./img/gs/raftwars2.jpg",
+    "location": "./source/swfs/#raftwars2",
+    "title": "Raft Wars 2",
+    "author": "Martijn Kunst",
+    "description": "Fight in the raft wars and hit all the targets to sabotage the business of the complex and get back the treasure that is buried in the ground. Defeat all enemies and pass all levels in the game. In the end you can submit your game score."
+  },
+  {
     "img": "./img/gs/retro-bowl.jpg",
     "location": "./source/retro-bowl/",
     "category": "web",
