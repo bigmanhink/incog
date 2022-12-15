@@ -29,6 +29,14 @@
     "title": "Skribbl.io"
   },
   {
+    "img": "./img/gs/superhex.jpg",
+    "location": "./load.html#c3VwZXJoZXguaW8=",
+    "title": "Superhex.io",
+    "category": "multi",
+    "author": "Tekko Studios",
+    "description": "Conquer all of the hexagons on the map! In Superhex.io, you will battle for territory. You can draw curved lines to connect the surrounding areas to your base. If another player touches your lines, you will lose everything. Keep expanding without any interruptions!"
+  },
+  {
     "img": "./img/gs/fn.png",
     "location": "./load.html#aHR0cHM6Ly9wbGF5LmdlZm9yY2Vub3cuY29tL21hbGwvIy9kZWVwbGluaz9nYW1lLWlkPTQ2YmZhYjA2LWQ4NjQtNDY1ZC05ZTU2LTJkOWU0NWNkZWUwYQ%3D%3D",
     "title": "Fortnite",
