@@ -4,26 +4,17 @@
 		<title>Choose a File</title>
 	</head>
 	<body>
-    <!-- Hitsteps TRACKING CODE - Manual 2021-09-07 - DO NOT CHANGE -->
-<script type="text/javascript">(function(){var hstc=document.createElement('script'); hstc.src='https://log.hitsteps.net/track.php?code=9f72ab201c732bd6a3d2f8eacab8c500';hstc.async=true;var htssc = document.getElementsByTagName('script')[0];htssc.parentNode.insertBefore(hstc, htssc);})();
-</script><noscript><a href="http://www.hitsteps.com/"><img src="//log.hitsteps.net/track.php?mode=img&amp;code=9f72ab201c732bd6a3d2f8eacab8c500" alt="Realtime blog statistics" width="1" height="1" />Realtime website tracking software</a></noscript>
-<!-- Hitsteps TRACKING CODE - DO NOT CHANGE -->
 		<h2>I'm supposed to be an invisible iframe... (you shouldn't see this)</h2>
 		<script src="https://www.dropbox.com/static/api/2/dropins.js"></script>
 		<script src="https://js.live.net/v7.2/OneDrive.js"></script>
 		<script src="tokens.js"></script>
 		<script>
-		var search = decodeURIComponent(window.location.search).substring(1).split("&");
-		var queries = {};
-		for (var i = 0; i < search.length; i++) {
-			var p = search[i].split("=");
-			queries[p[0]] = p[1];
-		}
+		var queries = Object.fromEntries(window.location.search.substring(1).split("&").map(i => i.split("=")).map(i => i.map(i => i && decodeURIComponent(i))));
 		
 		var fileTypes = queries.exts ? queries.exts.split(",") : [];
 		
 		function finish(message, name, data) {
-			window.parent.postMessage({webretro: {message: message, name: name, data: data}}, "*");
+			window.parent.postMessage({webretro: {timestamp: parseInt(queries.timestamp), message: message, name: name, data: data}}, "*");
 		}
 		
 		function xhr(loc, success, error) {
@@ -47,10 +38,10 @@
 		if (queries.type == "drive") {
 			// Google Drive
 			
-			var dwidth = window.screen.width - 320;
-			var dheight = window.screen.height - 240;
-			var dleft = 160;
-			var dtop = 120;
+			var dwidth = window.outerWidth - 320;
+			var dheight = window.outerHeight - 240;
+			var dleft = (window.innerWidth - dwidth) / 2 + window.screenLeft;
+			var dtop = (window.innerHeight - dheight) / 2 + window.screenTop;
 			window.open("drive.html?exts=" + fileTypes.join(","), "Choose a File", "left=" + dleft + ",top=" + dtop + ",width=" + dwidth + ",height=" + dheight);
 		} else if (queries.type == "dropbox") {
 			// Dropbox
