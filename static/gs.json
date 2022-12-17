@@ -20,13 +20,15 @@
     "img": "./img/gs/shellshockers.jpg",
     "location": "./load.html#aHR0cHM6Ly9zaGVsbHNob2NrLmlv",
     "category": "multi",
-    "title": "Shell Shockers"
+    "title": "Shell Shockers",
+    "author": "Blue Wizard Digital"
   },
   {
     "img": "./img/gs/skiribbl.png",
     "location": "./load.html#aHR0cHM6Ly9za3JpYmJsLmlv",
     "category": "multi",
-    "title": "Skribbl.io"
+    "title": "Skribbl.io",
+    "author": "ticedev"
   },
   {
     "img": "./img/gs/superhex.jpg",
@@ -40,12 +42,14 @@
     "img": "./img/gs/fn.png",
     "location": "./load.html#aHR0cHM6Ly9wbGF5LmdlZm9yY2Vub3cuY29tL21hbGwvIy9kZWVwbGluaz9nYW1lLWlkPTQ2YmZhYjA2LWQ4NjQtNDY1ZC05ZTU2LTJkOWU0NWNkZWUwYQ%3D%3D",
     "title": "Fortnite",
+    "author": "Epic Games",
     "category": "gfn"
   },
   {
     "img": "./img/gs/sg.jpg",
     "location": "./load.html#aHR0cHM6Ly9wbGF5LmdlZm9yY2Vub3cuY29tL21hbGwvIy9kZWVwbGluaz9nYW1lLWlkPTM5Njk5ZmI3LTVhMDUtNDFlNi04NmIyLTNjZDZmZDZjNDU5Yw%3D%3D",
     "title": "Splitgate",
+    "author": "1047 Games",
     "category": "gfn"
   },
   {
@@ -53,12 +57,14 @@
     "location": "./load.html#aHR0cHM6Ly9ub3cuZ2cvcGxheS9pbm5lcnNsb3RoLWxsYy80MDQ3L2Ftb25nLXVz",
     "category": "multi",
     "featured": true,
-    "title": "Among Us"
+    "title": "Among Us",
+    "author": "InnerSloth LLC"
   },
   {
     "img": "./img/gs/1-on-1-soccer.jpg",
     "location": "./source/swfs/#1on1soccer",
     "title": "1 on 1 Soccer",
+    "author": "Adam Wardle",
     "description": "\r\n\r\nDon't you enjoy the straight-forward athletic duels on the field? In 1 on 1 Soccer, you get to face off against another player (Computer or real) in a 2 player football match. Run up against the ball to kick it across the field. Jump up in the air to move the ball with your head, or to simply stand on your opponent's. A match only lasts five minutes. Before you know it, you're itching for a rematch.\r\n\r\nThe easy gameplay makes this soccer match fun and addictive. Grab your best friend and play a duell to find out who can handle the ball better. Aim into your opponent's goal and try to keep it as far away as possible from your own. What are you waiting for? Have some sporty fun with those funny looking figures in 1 on 1 Soccer, online and for free on Silvergames.com!\r\n\r\nControls: WASD \/ Arrows = Move\/Jump\r\n"
   },
   {
@@ -66,6 +72,7 @@
     "location": "./load.html#MXYxLmxvbA%3D%3D",
     "title": "1v1.LOL",
     "category": "multi",
+    "author": "Playtika Ltd.",
     "featured": true,
     "description": "Discover 1v1, the online building simulator & third person shooting game. Battle royale, build fight, box fight, zone wars and more game modes to enjoy!"
   },
@@ -73,13 +80,15 @@
     "img": "./img/gs/2048.png",
     "location": "./source/2048/",
     "title": "2048",
-    "description": "Join the tiles, get to 2048!"
+    "description": "Join the tiles, get to 2048!",
+    "author": "Solebon LLC"
   },
   {
     "img": "./img/gs/a-fancy-pants-adventure.jpg",
     "location": "./source/swfs/#a-fancy-pants-adventure-world1",
     "title": "A Fancy Pants Adventure",
-    "description": "In this game you take control of Fancy Pants - a cool stickman character who wears awesome and colorful pants! You must help our fancy hero work his way through a myriad of cool levels and avoid various obstacles, monsters and creatures on his way! "
+    "description": "In this game you take control of Fancy Pants - a cool stickman character who wears awesome and colorful pants! You must help our fancy hero work his way through a myriad of cool levels and avoid various obstacles, monsters and creatures on his way! ",
+    "author": "Borne Games"
   },
   {
     "img": "./img/gs/alien-hominid.jpg",
@@ -92,12 +101,14 @@
     "img": "./img/gs/btd4.jpg",
     "location": "./source/btd4/",
     "category": "web",
-    "title": "Bloons Tower Defense 4"
+    "title": "Bloons Tower Defense 4",
+    "author": "Ninja Kiwi"
   },
   {
     "img": "./img/gs/astray.jpg",
     "location": "./source/astray/",
-    "title": "Astray"
+    "title": "Astray",
+    "author": "wwwtyro"
   },
   {
     "img": "./img/gs/chroma.jpg",
@@ -139,167 +150,196 @@
   {
     "img": "./img/gs/drift-hunters.jpg",
     "location": "./source/drift/",
-    "title": "Drift Hunters"
+    "title": "Drift Hunters",
+    "author": "Ilya Kaminetsky"
   },
   {
     "img": "./img/gs/ducklife.jpg",
     "location": "./source/ducklife/",
     "category": "web",
-    "title": "Duck Life"
+    "title": "Duck Life",
+    "author": "Wix Games"
   },
   {
     "img": "./img/gs/ducklife2.jpg",
     "location": "./source/ducklife2/",
     "category": "web",
-    "title": "Duck Life 2"
+    "title": "Duck Life 2",
+    "author": "Wix Games"
   },
   {
     "img": "./img/gs/ducklife3.jpg",
     "location": "./source/ducklife3/",
     "category": "web",
-    "title": "Duck Life 3: Evolution"
+    "title": "Duck Life 3: Evolution",
+    "author": "Wix Games"
   },
   {
     "img": "./img/gs/ducklife4.jpg",
     "location": "./source/ducklife4/",
     "category": "web",
-    "title": "Duck Life 4"
+    "title": "Duck Life 4",
+    "author": "Wix Games"
   },
   {
     "img": "./img/gs/earthbound.jpg",
     "location": "./source/webretro/?core=autodetect&rom=earthbound.smc",
     "title": "Earthbound",
-    "category": "gba"
+    "category": "gba",
+    "author": "Nintendo, Ape Inc."
   },
   {
     "img": "./img/gs/fireboy-and-watergirl-forest-temple.jpg",
     "location": "./source/fireboy-and-watergirl-forest-temple/",
     "category": "web",
-    "title": "Fireboy & Watergirl Into the Forest Temple"
+    "title": "Fireboy & Watergirl Into the Forest Temple",
+    "author": "Oslo Albet"
   },
   {
     "img": "./img/gs/flappybird.jpg",
     "location": "./source/flappybird/",
     "category": "web",
-    "title": "Flappy Bird"
+    "title": "Flappy Bird",
+    "author": "Dong Nguyen, .Gears"
   },
   {
     "img": "./img/gs/fnf.jpg",
     "location": "./source/fnf/",
     "category": "web",
-    "title": "Friday Night Funkin"
+    "title": "Friday Night Funkin",
+    "author": "Ninjamuffin99"
   },
   {
     "img": "./img/gs/friendlyfire.jpg",
     "location": "./source/friendlyfire/",
-    "title": "Friendly Fire"
+    "title": "Friendly Fire",
+    "author": "The Cat Hive Developers"
   },
   {
     "img": "./img/gs/geometry.jpg",
     "location": "./source/geometry/",
-    "title": "Geometry Dash"
+    "title": "Geometry Dash",
+    "author": "RopTop Games"
   },
   {
     "img": "./img/gs/getaway-shootout.jpg",
     "location": "./source/getawayshootout",
     "category": "web",
-    "title": "Getaway Shootout"
+    "title": "Getaway Shootout",
+    "author": "New Eich Games"
   },
   {
     "img": "./img/gs/gopherkart.jpg",
     "location": "./source/gopher-kart/",
-    "title": "Gopher Kart"
+    "title": "Gopher Kart",
+    "author": "Jamilet Zelaya"
   },
   {
     "img": "./img/gs/hexgl.jpg",
     "location": "./source/hexgl/",
-    "title": "HexGL"
+    "title": "HexGL",
+    "author": "BKCore"
   },
   {
     "img": "./img/gs/hoh.png",
     "location": "./source/house-of-hazards",
     "category": "web",
-    "title": "House of Hazards"
+    "title": "House of Hazards",
+    "author": "New Eich Games"
   },
   {
     "img": "./img/gs/justfall-lol.jpg",
     "location": "./load.html#anVzdGZhbGwubG9s",
-    "title": "Justfall.LOL"
+    "title": "Justfall.LOL",
+    "author": "JustPlay.LOL"
   },
   {
     "img": "./img/gs/littlebigsnake.jpg",
     "location": "./load.html#bGl0dGxlYmlnc25ha2UuY29t",
     "category": "multi",
-    "title": "LittleBigSnake"
+    "title": "LittleBigSnake",
+    "author": "Addicting Games Inc"
   },
   {
     "img": "./img/gs/metroid.jpg",
     "location": "./source/webretro/?core=autodetect&rom=metroid.nes",
     "title": "Metriod",
-    "category": "nes"
+    "category": "nes",
+    "author": "Nintendo"
   },
   {
     "img": "./img/gs/minecraft.jpg",
     "location": "./source/mc-classic/",
-    "title": "Minecraft Classic"
+    "title": "Minecraft Classic",
+    "author": "Mojang Studios"
   },
   {
     "img": "./img/gs/mc.png",
     "location": "./source/eag/",
     "title": "Minecraft Eaglercraft",
     "category": "web",
+    "author": "LAX1DUDE",
     "featured": true
   },
   {
     "img": "./img/gs/pacman.jpg",
     "location": "./source/pacman/",
-    "title": "Pac Man"
+    "title": "Pac Man",
+    "author": "platzh1rsch"
   },
   {
     "img": "./img/gs/paper-io.jpg",
     "location": "./load.html#cGFwZXItaW8uY29t",
     "title": "Paper.io",
+    "author": "Voodoo",
     "category": "multi"
   },
   {
     "img": "./img/gs/poke-emerald.jpg",
     "location": "./source/webretro/?core=autodetect&rom=poke_emerald.gba",
     "title": "PokÃ©mon Emerald",
+    "author": "Nintendo, Game Freak",
     "category": "gba"
   },
   {
     "img": "./img/gs/poke-fire-red.jpg",
     "location": "./source/webretro/?core=autodetect&rom=poke_firered.gba",
     "title": "PokÃ©mon Fire Red",
+    "author": "Nintendo, Game Freak",
     "category": "gba"
   },
   {
     "img": "./img/gs/poke-leaf-green.jpg",
     "location": "./source/webretro/?core=autodetect&rom=poke_leafgreen.gba",
     "title": "PokÃ©mon Leaf Green",
+    "author": "Nintendo, Game Freak",
     "category": "gba"
   },
   {
     "img": "./img/gs/poke-ruby.jpg",
     "location": "./source/webretro/?core=autodetect&rom=poke_ruby.gba",
     "title": "PokÃ©mon Ruby",
+    "author": "Nintendo, Game Freak",
     "category": "gba"
   },
   {
     "img": "./img/gs/poke-sapphire.jpg",
     "location": "./source/webretro/?core=autodetect&rom=poke_sapphire.gba",
     "title": "PokÃ©mon Sapphire",
+    "author": "Nintendo, Game Freak",
     "category": "gba"
   },
   {
     "img": "./img/gs/portal2d.jpg",
     "location": "./source/swfs/#portal2d",
-    "title": "Portal 2D"
+    "title": "Portal 2D",
+    "author": "Callum Rose"
   },
   {
     "img": "./img/gs/radiusraid.jpg",
     "location": "./source/radius-raid/",
-    "title": "Radius Raid"
+    "title": "Radius Raid",
+    "author": "js13kGames"
   },
   {
     "img": "./img/gs/raftwars.jpg",
@@ -319,18 +359,21 @@
     "img": "./img/gs/retro-bowl.jpg",
     "location": "./source/retro-bowl/",
     "category": "web",
-    "title": "Retro Bowl"
+    "title": "Retro Bowl",
+    "author": "New Star Games"
   },
   {
     "img": "./img/gs/ritz.jpg",
     "location": "./source/ritz/",
-    "title": "Ritz"
+    "title": "Ritz",
+    "author": "Ninjamuffin99"
   },
   {
     "img": "./img/gs/rooftop.jpg",
     "location": "./source/rooftop-snipers/",
     "category": "web",
-    "title": "Rooftop Snipers"
+    "title": "Rooftop Snipers",
+    "author": "New Eich Games"
   },
   {
     "img": "./img/gs/run3.jpg",
@@ -354,54 +397,63 @@
     "img": "./img/gs/sm-allstars.jpg",
     "location": "./source/webretro/?core=autodetect&rom=sm-allstars.smc",
     "title": "Super Mario All Stars",
-    "category": "snes"
+    "category": "snes",
+    "author": "Nintendo"
   },
   {
     "img": "./img/gs/sm64.jpg",
     "location": "./source/sm64/",
     "title": "Super Mario 64",
-    "category": "n64"
+    "category": "n64",
+    "author": "Nintendo"
   },
   {
     "img": "./img/gs/smb.jpg",
     "location": "./source/webretro/?core=autodetect&rom=smb.nes",
     "title": "Super Mario Bros",
-    "category": "nes"
+    "category": "nes",
+    "author": "Nintendo"
   },
   {
     "img": "./img/gs/smb3.jpg",
     "location": "./source/webretro/?core=autodetect&rom=smb3.gba",
     "title": "Super Mario Bros 3",
-    "category": "gba"
+    "category": "gba",
+    "author": "Nintendo"
   },
   {
     "img": "./img/gs/smw.jpg",
     "location": "./source/webretro/?core=autodetect&rom=smw.gba",
     "title": "Super Mario World",
-    "category": "snes"
+    "category": "snes",
+    "author": "Nintendo"
   },
   {
     "img": "./img/gs/sonic.jpg",
     "location": "./source/webretro/?core=autodetect&rom=sonic.md",
     "title": "Sonic The Hedgehog",
-    "category": "sega"
+    "category": "sega",
+    "author": "Sega"
   },
   {
     "img": "./img/gs/sonic2.jpg",
     "location": "./source/webretro/?core=autodetect&rom=sonic2.md",
     "title": "Sonic The Hedgehog 2",
-    "category": "sega"
+    "category": "sega",
+    "author": "Sega"
   },
   {
     "img": "./img/gs/sonic3.jpg",
     "location": "./source/webretro/?core=autodetect&rom=sonic3.md",
     "title": "Sonic The Hedgehog 3",
-    "category": "sega"
+    "category": "sega",
+    "author": "Sega"
   },
   {
     "img": "./img/gs/spaceinvaders.jpg",
     "location": "./source/spaceinvaders/",
-    "title": "Space Invaders"
+    "title": "Space Invaders",
+    "author": "Taito"
   },
   {
     "img": "./img/gs/superhot.jpg",
@@ -414,94 +466,110 @@
     "img": "./img/gs/super-metroid.jpg",
     "location": "./source/webretro/?core=autodetect&rom=supermetroid.smc",
     "title": "Super Metroid",
-    "category": "snes"
+    "category": "snes",
+    "author": "Nintendo"
   },
   {
     "img": "./img/gs/mega.jpg",
     "location": "./source/webretro/?core=autodetect&rom=mega.smc",
     "title": "Mega Man X",
-    "category": "snes"
+    "category": "snes",
+    "author": "Nintendo"
   },
   {
     "img": "./img/gs/megam.png",
     "location": "./source/webretro/?core=autodetect&rom=megam.nes",
     "title": "Mega Man",
-    "category": "nes"
+    "category": "nes",
+    "author": "Nintendo"
   },
   {
     "img": "./img/gs/donkey.jpg",
     "location": "./source/webretro/?core=autodetect&rom=donkey.smc",
     "title": "Donkey Kong Country",
-    "category": "snes"
+    "category": "snes",
+    "author": "Nintendo, Rareware"
   },
   {
     "img": "./img/gs/ffiii.jpg",
     "location": "./source/webretro/?core=autodetect&rom=ffiii.nes",
     "title": "Final Fantasy III",
-    "category": "nes"
+    "category": "nes",
+    "author": "Nintendo"
   },
   {
     "img": "./img/gs/tj.jpg",
     "location": "./source/tube-jumpers/",
     "title": "Tube Jumpers",
-    "category": "web"
+    "category": "web",
+    "author": "New Eich Games"
   },
   {
     "img": "./img/gs/vex3.jpg",
     "location": "./source/vex3/",
     "title": "Vex 3",
-    "category": "web"
+    "category": "web",
+    "author": "Amazing Adam"
   },
   {
     "img": "./img/gs/vex4.jpg",
     "location": "./source/vex4/",
     "title": "Vex 4",
-    "category": "web"
+    "category": "web",
+    "author": "Amazing Adam"
   },
   {
     "img": "./img/gs/vex5.jpg",
     "location": "./source/vex5/",
     "title": "Vex 5",
-    "category": "web"
+    "category": "web",
+    "author": "Amazing Adam"
   },  
   {
     "img": "./img/gs/vex6.jpg",
     "location": "./source/vex6/",
     "title": "Vex 6",
-    "category": "web"
+    "category": "web",
+    "author": "Amazing Adam"
   },
   {
     "img": "./img/gs/zelda-minish-cap.jpg",
     "location": "./source/webretro/?core=autodetect&rom=zelda_minish.gba",
     "title": "The Legend of Zelda: The Minish Cap",
-    "category": "gba"
+    "category": "gba",
+    "author": "Nintendo, Capcom"
   },
   {
     "img": "./img/gs/zelda-past.jpg",
     "location": "./source/webretro/?core=autodetect&rom=zelda_past.gba",
     "title": "The Legend of Zelda: A Link to the Past",
-    "category": "gba"
+    "category": "gba",
+    "author": "Nintendo, Capcom"
   },
   {
     "img": "./img/gs/zelda.jpg",
     "location": "./source/webretro/?core=autodetect&rom=zelda.nes",
     "title": "The Legend of Zelda",
-    "category": "nes"
+    "category": "nes",
+    "author": "Nintendo"
   },
   {
     "img": "./img/gs/warfare1917.png",
     "location": "./source/swfs/#warfare1917",
-    "title": "Warfare 1917"
+    "title": "Warfare 1917",
+    "author": "Armor Games"
   },
   {
     "img": "./img/gs/warfare1944.jpg",
     "location": "./source/swfs/#warfare1944",
-    "title": "Warfare 1944"
+    "title": "Warfare 1944",
+    "author": "Armor Games"
   },
   {
     "img": "./img/gs/zombsroyale.jpg",
     "location": "./load.html#em9tYnNyb3lhbGUuaW8%3D",
     "title": "ZombsRoyale.io",
+    "author": "Yangcheng Liu, End Game",
     "category": "multi"
   }
 ]
