@@ -562,6 +562,12 @@
     "author": "Nintendo"
   },
   {
+    "img": "./img/gs/unfairmario.jpg",
+    "location": "./source/swfs/#unfairmario",
+    "title": "Unfair Mario",
+    "author": "Gameitnow"
+  },
+  {
     "img": "./img/gs/warfare1917.png",
     "location": "./source/swfs/#warfare1917",
     "title": "Warfare 1917",
