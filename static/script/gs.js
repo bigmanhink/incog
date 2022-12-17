@@ -76,60 +76,8 @@ async function compileGs(app) {
         n64: [],
     };
     const buildimgcontainer = (entry) => {
-        const $imgcontainer = document.createElement("div", [], {
-            class: "img-container",
-            events: {
-                click(event) {
-                    function foc() {
-                        if (window.location.hash !== '#gs' || !app.main.player) {
-                            return window.removeEventListener('click', foc);
-                        };
-                        app.main.player.querySelector('iframe').contentWindow.focus()
-                    };
-                    app.main.library.style.display = 'none';
-                    app.main.player.style.display = 'block';
-                    app.search.input.style.display = 'none';
-                    app.search.title.style.display = 'block';
-                    app.search.title.textContent = entry.title;
-                    window.addEventListener('click', foc);
-                    app.nav.fullscreen = app.createElement('button', 'fullscreen', {
-                        class: 'submit',
-                        style: {
-                            'font-family': 'Material Icons',
-                            'font-size': '30px',
-                            color: 'var(--accent)',
-                            background: 'none',
-                            border: 'none',
-                            cursor: 'pointer'
-                        },
-                        events: {
-                            click() {
-                                app.main.player.querySelector('iframe').requestFullscreen();
-                                app.main.player.querySelector('iframe').contentWindow.focus();
-                            }
-                        }
-                    });
-                    app.main.player.querySelector('iframe').src = entry.location;
-                    app.main.player.querySelector('.author').textContent = entry.author || '';
-                    app.main.player.querySelector('.description').textContent = entry.description || '';
-                    window.scrollTo({
-                        top: 0
-                    });
-                    app.search.back.setAttribute('onclick', '(' + (() => {
-                        if (window.location.hash !== '#gs') return this.removeAttribute('onclick');
-                        event.preventDefault();
-                        app.main.library.style.removeProperty('display');
-                        app.search.input.style.removeProperty('display');
-                        app.search.title.style.display = 'none';
-                        app.search.title.textContent = '';
-                        app.main.player.style.display = 'none';
-                        app.main.player.querySelector('iframe').src = 'about:blank';
-                        delete app.nav.fullscreen;
-                        this.removeAttribute('onclick');
-                    }).toString() + ')()');
-                }
-            }
-        }) //create div imagecontainer
+        const $imgcontainer = document.createElement("div") //create div imagecontainer
+        $imgcontainer.classList.add("img-container")
 
         const $anchor = document.createElement("a"); //create anchor tag inside that
 
@@ -171,6 +119,56 @@ async function compileGs(app) {
 
         const $imgcontainer = buildimgcontainer(entry);
         const $gridcardtext = buildgridcardtext(entry);
+
+        $imgcontainer.addEventListener('click', (event) => {
+            function foc() {
+                if (window.location.hash !== '#gs' || !app.main.player) {
+                    return window.removeEventListener('click', foc);
+                };
+                app.main.player.querySelector('iframe').contentWindow.focus()
+            };
+            app.main.library.style.display = 'none';
+            app.main.player.style.display = 'block';
+            app.search.input.style.display = 'none';
+            app.search.title.style.display = 'block';
+            app.search.title.textContent = entry.title;
+            window.addEventListener('click', foc);
+            app.nav.fullscreen = app.createElement('button', 'fullscreen', {
+                class: 'submit',
+                style: {
+                    'font-family': 'Material Icons',
+                    'font-size': '30px',
+                    color: 'var(--accent)',
+                    background: 'none',
+                    border: 'none',
+                    cursor: 'pointer'
+                },
+                events: {
+                    click() {
+                        app.main.player.querySelector('iframe').requestFullscreen();
+                        app.main.player.querySelector('iframe').contentWindow.focus();
+                    }
+                }
+            });
+            app.main.player.querySelector('iframe').src = entry.location;
+            app.main.player.querySelector('.author').textContent = entry.author || '';
+            app.main.player.querySelector('.description').textContent = entry.description || '';
+            window.scrollTo({
+                top: 0
+            });
+            app.search.back.setAttribute('onclick', '(' + (() => {
+                if (window.location.hash !== '#gs') return this.removeAttribute('onclick');
+                event.preventDefault();
+                app.main.library.style.removeProperty('display');
+                app.search.input.style.removeProperty('display');
+                app.search.title.style.display = 'none';
+                app.search.title.textContent = '';
+                app.main.player.style.display = 'none';
+                app.main.player.querySelector('iframe').src = 'about:blank';
+                delete app.nav.fullscreen;
+                this.removeAttribute('onclick');
+            }).toString() + ')()');
+        })
 
         const $filtermask = document.createElement("div");
         $filtermask.classList.add("filter-mask");
