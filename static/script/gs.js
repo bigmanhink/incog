@@ -75,7 +75,7 @@ async function compileGs(app) {
         gfn: [],
         n64: [],
     };
-    const buildimgcontainer = (game) => {
+    const buildimgcontainer = (entry) => {
         const $imgcontainer = document.createElement("div") //create div imagecontainer
         $imgcontainer.classList.add("img-container");
 
@@ -134,8 +134,8 @@ async function compileGs(app) {
 
         const $imgtag = document.createElement("img"); //create the img tag
         $imgtag.classList.add("hover-center")
-        $imgtag.src = game.img
-        $imgtag.alt = game.title //alt is the same as the games name
+        $imgtag.src = entry.img
+        $imgtag.alt = entry.title //alt is the same as the games name
 
         $anchor.appendChild($imgtag)
         $imgcontainer.appendChild($anchor)
