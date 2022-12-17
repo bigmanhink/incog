@@ -297,35 +297,35 @@
   {
     "img": "./img/gs/poke-emerald.jpg",
     "location": "./source/webretro/?core=autodetect&rom=poke_emerald.gba",
-    "title": "PokÃ©mon Emerald",
+    "title": "Pokémon Emerald",
     "author": "Nintendo, Game Freak",
     "category": "gba"
   },
   {
     "img": "./img/gs/poke-fire-red.jpg",
     "location": "./source/webretro/?core=autodetect&rom=poke_firered.gba",
-    "title": "PokÃ©mon Fire Red",
+    "title": "Pokémon Fire Red",
     "author": "Nintendo, Game Freak",
     "category": "gba"
   },
   {
     "img": "./img/gs/poke-leaf-green.jpg",
     "location": "./source/webretro/?core=autodetect&rom=poke_leafgreen.gba",
-    "title": "PokÃ©mon Leaf Green",
+    "title": "Pokémon Leaf Green",
     "author": "Nintendo, Game Freak",
     "category": "gba"
   },
   {
     "img": "./img/gs/poke-ruby.jpg",
     "location": "./source/webretro/?core=autodetect&rom=poke_ruby.gba",
-    "title": "PokÃ©mon Ruby",
+    "title": "Pokémon Ruby",
     "author": "Nintendo, Game Freak",
     "category": "gba"
   },
   {
     "img": "./img/gs/poke-sapphire.jpg",
     "location": "./source/webretro/?core=autodetect&rom=poke_sapphire.gba",
-    "title": "PokÃ©mon Sapphire",
+    "title": "Pokémon Sapphire",
     "author": "Nintendo, Game Freak",
     "category": "gba"
   },
@@ -433,21 +433,21 @@
     "location": "./source/webretro/?core=autodetect&rom=sonic.md",
     "title": "Sonic The Hedgehog",
     "category": "sega",
-    "author": "Sega"
+    "author": "Sega & Sonic Team"
   },
   {
     "img": "./img/gs/sonic2.jpg",
     "location": "./source/webretro/?core=autodetect&rom=sonic2.md",
     "title": "Sonic The Hedgehog 2",
     "category": "sega",
-    "author": "Sega"
+    "author": "Sega & Sonic Team"
   },
   {
     "img": "./img/gs/sonic3.jpg",
     "location": "./source/webretro/?core=autodetect&rom=sonic3.md",
     "title": "Sonic The Hedgehog 3",
     "category": "sega",
-    "author": "Sega"
+    "author": "Sega & Sonic Team"
   },
   {
     "img": "./img/gs/spaceinvaders.jpg",
@@ -482,14 +482,14 @@
     "location": "./source/webretro/?core=autodetect&rom=mega.smc",
     "title": "Mega Man X",
     "category": "snes",
-    "author": "Nintendo"
+    "author": "Capcom"
   },
   {
     "img": "./img/gs/megam.png",
     "location": "./source/webretro/?core=autodetect&rom=megam.nes",
     "title": "Mega Man",
     "category": "nes",
-    "author": "Nintendo"
+    "author": "Capcom"
   },
   {
     "img": "./img/gs/donkey.jpg",

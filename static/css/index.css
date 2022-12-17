@@ -410,7 +410,7 @@ main {
 }
 .author,
 .description {
-    padding: 0 var(--width-padding);
+    padding: 10px var(--width-padding);
 }
 .description {
     margin-bottom: 20px;
