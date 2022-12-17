@@ -219,7 +219,7 @@ section p a {
     border-radius: 5px 5px 0 0;
 }
 .gs-entry {
-    background: #d8d8d8;
+    background: var(#d8d8d847);
     border-radius: 5px;
     position: relative
 }
@@ -259,6 +259,7 @@ section p a {
     font-size: 17px;
     font-weight: 600;
     line-height: 1.2em;
+    color: var(--text-color)
 }
 @media all and (max-width: 812px) {
     .game-name {
@@ -272,6 +273,7 @@ section p a {
     line-height: 20px;
     font-style: italic;
     font-weight: 500;
+    color: var(--text-color)
 }
 @media all and (max-width: 812px) {
     .game-developer {
