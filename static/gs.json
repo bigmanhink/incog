@@ -428,6 +428,12 @@
     "author": "Nintendo"
   },
   {
+    "img": "./img/gs/super-mario-flash.jpg",
+    "location": "./swfs/#super-mario-flash",
+    "title": "Super Mario Flash",
+    "author": "Pouetpu Games"
+  },
+  {
     "img": "./img/gs/smw.jpg",
     "location": "./source/webretro/?core=autodetect&rom=smw.gba",
     "title": "Super Mario World",
