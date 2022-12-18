@@ -47,8 +47,12 @@ async function gs(app) {
         app.main.library.querySelectorAll('.category').forEach(node => {
             if (!node.querySelectorAll('.gs-library .gs-entry[data-active]').length) {
                 node.style.display = 'none';
+                node.$imgcontainer.style.display = 'none';
+                node.$gridcardtext.style.display = 'none';
             } else {
                 node.style.removeProperty('display');
+                node.$imgcontainer.style.removeProperty('display');
+                node.$gridcardtext.style.removeProperty('display');
             };
         });
         if (!count) {
