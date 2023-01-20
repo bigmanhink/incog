@@ -469,6 +469,12 @@
     "description": "No regenerating health bars. No conveniently placed ammo drops.\nIt's just you, outnumbered and outgunned, grabbing weapons off fallen enemies to shoot, slice, and maneuver through a hurricane of slow-motion bullets."
   },
   {
+    "img": "./img/gs/super-mario-flash.jpg",
+    "location": "./source/swfs/#super-mario-flash.swf",
+    "title": "Super Mario Flash",
+    "author": "Poeptu Games"
+  },
+  {
     "img": "./img/gs/super-metroid.jpg",
     "location": "./source/webretro/?core=autodetect&rom=supermetroid.smc",
     "title": "Super Metroid",
