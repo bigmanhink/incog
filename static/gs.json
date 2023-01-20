@@ -470,7 +470,7 @@
   },
   {
     "img": "./img/gs/super-mario-flash.jpg",
-    "location": "./source/swfs/#super-mario-flash.swf",
+    "location": "./source/swfs/#super-mario-flash",
     "title": "Super Mario Flash",
     "author": "Poeptu Games"
   },
